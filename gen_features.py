@@ -14,22 +14,15 @@ from feature_generators.feature_alignment import feature_alignment
 from feature_generators.get_edge import get_edge
 
 
-# foldx_path = '/storage3/database/datasets/dataset_ddG/5.0/foldx'
-# naccess_path = '/home/admin1/naccess2.1.1/naccess'
-# dssp_path = '/storage2/student/djs0/anaconda3/envs/pyg/bin/mkdssp'
-# psi_path = '/storage3/database/package/ncbi-blast-2.14.1+/bin/psiblast'
-# clustalo_path = 'clustalo'
-# hhblits_path = '/storage3/database/package/hhsuite/bin/hhblits'
-# uniref90_path = '/storage2/student/dmy/psiblast/uniref90'
-# uniRef30_path = '/storage3/database/UniRef30/UniRef30_2020_06/UniRef30_2020_06'
-foldx_path = './foldx'
-naccess_path = './naccess2.1.1/naccess'
-dssp_path = '../anaconda3/envs/pyg/bin/mkdssp'
-psi_path = './ncbi-blast-2.13.0+/bin/psiblast'
-clustalo_path = './clustalo'
-hhblits_path = './hh-suite/build/bin/hhblits'
-uniref90_path = './database/uniref90/uniref90'
-uniRef30_path = './database/uniref30/UniRef30_2022_02'
+
+foldx_path = './software/foldx'
+naccess_path = './software/naccess2.1.1/naccess'
+dssp_path = '../anaconda3/envs/pilot/bin/mkdssp'
+psi_path = './software/ncbi-blast-2.13.0+/bin/psiblast'
+clustalo_path = './software/clustalo'
+hhblits_path = './software/hh-suite/build/bin/hhblits'
+uniref90_path = './software/database/uniref90/uniref90'
+uniRef30_path = './software/database/uniref30/UniRef30_2022_02'
 
 
 def get_new_pdb_array(pdb_array, res_pdbpos, atom_indexpos):
