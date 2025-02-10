@@ -1,6 +1,6 @@
 # PILOT
 ***
-## A hybrid attention network for prediction of mutation impact on protein stability
+## PILOT: Deep Siamese network with hybrid attention improves prediction of mutation impact on protein stability
 ***
 
 PILOT is a novel hybrid attention-based Siamese network that evaluates the impact of single mutations on protein stability by computing the change in the unfolded Gibbs free energy. 
