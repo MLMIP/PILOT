@@ -15,7 +15,8 @@ cd PILOT
 ## Step 2: Build required dependencies
 It is recommended to use [Anaconda](https://www.anaconda.com/download#downloads) to install PyTorch, PyTorch Geometrics 
 and other required Python libraries. Executing the below command will automatically install the Anaconda virtual 
-environment. Upon completion, a virtual environment named "pilot" will be created. 
+environment. Upon completion, a virtual environment named "pilot" will be created. You can obtain the model weights
+from [Zenodo-PILOT](https://zenodo.org/records/15300032).
 ```commandline
 source install.sh
 ```
